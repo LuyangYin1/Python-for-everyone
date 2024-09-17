@@ -12,6 +12,15 @@ def adding_two_numbers(number1,number2):
 total = adding_two_numbers(2,3)
 print(total)
 
+#Default function
+def say(text="hello"):
+    print(text)
+
+say()
+say("Hi")
+
+
+
 # Base Case and Recursive Cases 
 # Factorial 5! = 5*4*3*2*1
 
