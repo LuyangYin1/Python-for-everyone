@@ -39,9 +39,15 @@ print(text.index("python")) # 27
 txt = "Hello, welcome to my world."
 
 print(txt.find("q")) # -1 
-print(txt.index("q")) # Error 
+# print(txt.index("q")) # Error 
 
 # Join
 names = ['avnit','loves','hockey']
-sep= ' '
+sep= '\n'
 print(sep.join(names))
+
+# replace 
+output = txt.replace("world","life")
+print(output)
+
+# 
