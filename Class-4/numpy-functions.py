@@ -10,3 +10,6 @@ print("********exp of a *********")
 print(np.exp(a))
 
 #### Student need to implement log and cos funtions 
+
+#########################
+
