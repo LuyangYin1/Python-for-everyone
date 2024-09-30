@@ -20,3 +20,28 @@ b = np.array([11,12,13,14], dtype=np.int64)
 
 print ("world of numpy" , a+b)
 
+print("***************dtype******************")
+print(a.dtype)
+
+print("***************type******************")
+print(type(a))
+
+print("***************shape******************")
+print(a.shape)
+
+print("***************type of shape******************")
+print(type(a.shape))
+
+print("***************ndim******************")
+print(a.ndim)
+
+print("***************size******************")
+print(a.size)
+
+print("***************itemsize******************")
+print(a.itemsize)
+
+print("***************nbytes******************")
+print(a.nbytes)
+
+
