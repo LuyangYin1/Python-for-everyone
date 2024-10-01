@@ -5,3 +5,6 @@ print (a[1:3])
 print (a[1:-2])
 print(a[-4:3])
 print(a[-5:-2])
+
+# omitting indices 
+print(a[:3])
