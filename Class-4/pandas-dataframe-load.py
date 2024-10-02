@@ -16,6 +16,11 @@ def header(msg):
     print(df)
     return df 
 
+def data_types(df):
+    print(df.dtypes)
+    print(df.index)
+    print(df.columns)
+    print(df.values)
 
 
 if __name__ == "__main__":
@@ -27,3 +32,5 @@ if __name__ == "__main__":
     print("3. print first 5 rows of data frame and last 3 rows of data frame")
     print(df.head())
     print(df.tail(3))
+    print("4. get data types, index, columns, values")
+    data_types(df)
