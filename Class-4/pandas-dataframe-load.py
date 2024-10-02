@@ -21,6 +21,8 @@ def data_types(df):
     print(df.index)
     print(df.columns)
     print(df.values)
+    print(df.describe())
+    #print(df.sort_values('avg_high',ascending=False))
 
 
 if __name__ == "__main__":
@@ -34,3 +36,9 @@ if __name__ == "__main__":
     print(df.tail(3))
     print("4. get data types, index, columns, values")
     data_types(df)
+    print("5. get statistical data")
+    # slicing scalar value -- 
+    print(df.iloc[3:5,0:2])
+    df['avg_high'] = (df[:2])
+    # df['avg_day'] = (df[:2] + df['avg_low'])/2
+    #print(df['avg_high'])
