@@ -24,3 +24,6 @@ if __name__ == "__main__":
     filename = 'weather.csv'
     df = pd.read_csv(filename)
     print(df)
+    print("3. print first 5 rows of data frame and last 3 rows of data frame")
+    print(df.head())
+    print(df.tail(3))
