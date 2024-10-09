@@ -1,0 +1,8 @@
+  month  avg_high  avg_low  record_high  record_low  avg_precipitation
+0   Jan        58       42           74          22               2.95
+1   Feb        61       45           78          26               3.02
+2   Mar        65       48           84          25               2.34
+3   Apr        67       50           92          28               1.02
+4   May        71       53           98          35               0.48
+5   Jun        75       56          107          41               0.11
+6   Jul        77       58          105          44               0.00

@@ -1,9 +1,10 @@
 import numpy as np
 import pandas as pd
-import os
+from os import remove, rename
+
 
 print("1. Reading the file without pandas")
-file = open("weather.txt", "r")
+file = open("weather.csv", "r")
 with open(file) as file:
     print(file.read())
 file.close()
