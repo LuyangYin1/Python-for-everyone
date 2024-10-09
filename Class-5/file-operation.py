@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import os
 
 print("1. Reading the file without pandas")
 file = open("weather.txt", "r")
