@@ -19,3 +19,4 @@ plt.ylabel("price")
 plt.legend(loc='upper left')
 plt.show()
 
+plt.bar()
