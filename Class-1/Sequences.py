@@ -5,10 +5,6 @@ Mixed = ["John",10, "Bob", 1.2]
 
 print(names[1])
 
-
-
-
-
 # print(numbers[2])
 print(names[1:])
 print(Mixed[:2])

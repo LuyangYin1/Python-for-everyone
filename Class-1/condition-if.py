@@ -1,5 +1,7 @@
 x = int(input("enter the marks obtained as an interger only ? "))
-z = int(input("enter the att ? "))
+# Check if value greater than 90
+if (x > 90):
+    print("Your Grade is A+")
 # Check if value greater than 70 
 if (x > 70):
     print("Your Grade is A")
