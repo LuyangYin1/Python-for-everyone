@@ -1,0 +1,59 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal", // Or "externalTerminal" for a separate terminal
+            "justMyCode": true // Set to false to debug all code, including libraries
+        },
+        {
+            "name": "Python: Debugger", // Alternative name
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Module",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "enter-module-name-here", // Replace with the module you want to debug
+            "args": [
+                // Add arguments for your module here if needed
+            ]
+        },
+        {
+            "name": "Python: Flask", // Example for Flask apps
+            "type": "debugpy",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "app.py", // Replace with your Flask app file
+                "FLASK_ENV": "development", // Optional
+                "FLASK_DEBUG": "1" // Optional - enables debug mode
+            },
+            "args": [
+                "run",
+                "--no-debugger", // Optional - prevent Flask from starting its own debugger
+                "--no-reload" // Optional - prevent Flask from reloading on code changes
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Django", // Example for Django projects
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py", // Path to your manage.py
+            "args": [
+                "runserver"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

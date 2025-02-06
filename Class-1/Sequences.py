@@ -7,6 +7,7 @@ print(numbers) # [10, 20, 30, 40]
 print(names[1]) # Alex
 print(numbers[2]) # 30
 
+<<<<<<< HEAD
 
 
 
@@ -15,6 +16,12 @@ print(numbers[2]) # 30
 # print(names[1:])
 # print(Mixed[:2])
 # print(Mixed[0:2])
+=======
+# print(numbers[2])
+print(names[1:])
+print(Mixed[:2])
+print(Mixed[0:2])
+>>>>>>> f6061bc2ba31dd87bc74d1c6d31522b1a20945ac
 
 # # # Modifying elements 
 # numbers[2] = 13

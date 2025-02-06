@@ -8,6 +8,6 @@ def sum_and_product(arr) :
 
 arr = [12, 23, 34, 2, 56, 90]
 print(sum_and_product(arr)) # sum and product 
-arr.add(10)
+# arr.add(10)
 print(sum_and_product(arr)) 
 print(type(sum_and_product(arr))) # tuple 
