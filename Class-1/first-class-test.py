@@ -1,7 +1,9 @@
 a = 10
 print(a) # 10 
-b = 50 
-c = 0  # 0 
+b = 50 # 50
+c = 0.1  # 0.1 
+
+print (c)
 if (a > c) : # 10 != 0 (yes )
  print("value is ", str(a)) # exe
  print(3)
