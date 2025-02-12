@@ -3,7 +3,7 @@ x = int(input("enter the marks obtained as an interger only ? "))
 if (x > 90):
     print("Your Grade is A+")
 # Check if value greater than 70 
-if (x > 70):
+elif (x > 70):
     print("Your Grade is A")
 elif (x > 65):
      print("Your Grade is B+")

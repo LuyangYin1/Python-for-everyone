@@ -4,3 +4,4 @@ t = type(s)
 # Will this code work ?
 print("The string is " + s + "which is of type " + t)
 
+a = 1 
