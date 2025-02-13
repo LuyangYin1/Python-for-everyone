@@ -1,13 +1,13 @@
 text= "where is San Antonio TX?"
-print(text[:5]) # print after 5 
-print (text[6:11]) # print 6 to 11 
+# print(text[:5]) # print after 5 
+# print (text[6:11]) # print 6 to 11 
 
-for x in text:
-    print(x)
+# for x in text:
+#     print(x)
 
 #string formatting 
 name,age ="john",25
-print("%s is my name" %name)
+print("%s is my name" %name, end="\n", sep=")(*&^%$#@!@#$%^&*()")
 print("%d is my age" %age)
 print("%s is %d years old" %(name,age))
 
@@ -27,27 +27,27 @@ text = "hello world and welcome to python world"
 print(text.count("world")) # 2 
 print(text.count("python")) # 1 
 
-#find 
-print(text.find("world")) # 6
+# #find 
+print(text.find("if")) # 6
 print(text.find("python")) # 27
 
-#index 
+# #index 
 print(text.index("world")) # 6
 print(text.index("python")) # 27 
 
-# Value not found 
+# # Value not found 
 txt = "Hello, welcome to my world."
 
 print(txt.find("q")) # -1 
-# print(txt.index("q")) # Error 
+#print(txt.index("q")) # Error 
 
-# Join
+# # Join
 names = ['avnit','loves','hockey']
-sep= '\n'
+sep= ','
 print(sep.join(names))
 
-# replace 
+# # replace 
 output = txt.replace("world","life")
 print(output)
 
-# 
+# # 
