@@ -1,3 +1,4 @@
+.venv/*
 Class-2/.venv/pyvenv.cfg
 Class-2/.venv/Lib/site-packages/pip/__init__.py
 Class-2/.venv/Lib/site-packages/pip/__main__.py
