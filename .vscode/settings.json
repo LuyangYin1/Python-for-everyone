@@ -1,3 +1,5 @@
 {
-    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "idf.pythonInstallPath": "C:\\Users\\abamb\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.flashType": "UART"
 }
