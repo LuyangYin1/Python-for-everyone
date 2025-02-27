@@ -1,6 +1,7 @@
 from flask import Flask
 
-app = Flask(__name__)
+name_of_webpage = "MyApp"
+app = Flask(name_of_webpage)
 
 @app.route("/")
 def hello_world():

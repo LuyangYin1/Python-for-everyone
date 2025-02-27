@@ -2,7 +2,7 @@ from collections import namedtuple
 import sys
 import os
 
-def main():
+def avnit():
     Rec = namedtuple('rec', ['name', 'age', 'score'])
     pat = Rec('pat', 23, 99)
     print(pat)
@@ -15,6 +15,9 @@ def main():
     print(pat._replace(name='sam', age=33, score=88))
     print(pat._replace(name='sam', age=33, score=88)._asdict())
 
+def test():
+    pass
 
 if __name__ == '__main__':
-    main()  
+    avnit()
+    test()  

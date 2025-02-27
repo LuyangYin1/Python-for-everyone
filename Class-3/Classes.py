@@ -1,3 +1,4 @@
+# from Classes import Car, ElectricCar
 class Car:
     """A simple class to represent a car."""
     amount_car = 0
@@ -60,7 +61,7 @@ print(Car.amount_car)
 
 
 
-# Use the methods of the Car class
+# # Use the methods of the Car class
 print(my_car3.describe_car())
 my_car.read_odometer()
 
