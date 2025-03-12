@@ -51,11 +51,3 @@ a,b = np.hsplit(x,[2])
 print(a)
 print(b)
 
-# Universal functions
-x = np.arange(4)
-print("x      =", x)
-print("x + 5  =", x + 5)
-print("x - 5  =", x - 5)
-print("x * 2  =", x * 2)
-print("x / 2  =", x / 2)
-print("x // 2 =", x // 2)  # floor division
