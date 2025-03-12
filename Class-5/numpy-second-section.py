@@ -51,3 +51,10 @@ a,b = np.hsplit(x,[2])
 print(a)
 print(b)
 
+# sorting arrays
+rng = np.random.default_rng(seed=42)
+X = rng.integers(0, 10, (4, 6))
+print(X)
+
+print(np.sort(X,axis=0)) # column wise 
+print(np.sort(X,axis=1)) # row wise
