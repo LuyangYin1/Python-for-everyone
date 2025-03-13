@@ -23,6 +23,17 @@ print(file_write.write(str(df)))
 file_write.flush()
 file_write.close()
 
+
+print("4. Check if the file exists")
+print(os.path.exists('file_to_write.txt'))
+
 os.chdir(test)
+print("5. Rename the file")
+os.rename('file_to_write.txt','file_written.txt')
+print("6. Delete the file")
+os.remove('file_written.txt')
+print("7. Check if the file exists")
+print(os.path.exists('file_written.txt'))
+
 
 
