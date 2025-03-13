@@ -1,4 +1,6 @@
 #Python Homework 
+# Do one from each part and submit it by email.
+# Deadline: 26th March 2025
 
 # Part 1: Python Basics
 
