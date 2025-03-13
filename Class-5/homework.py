@@ -32,3 +32,5 @@
 
 # Submit your Python code files (.py) and a brief report explaining your solutions.
 # Make sure your code is well-commented and easy to understand.
+# Include any references used in your research.
+# Submit your homework via email "abambah@gmail.com". Copy the code and add it as an attachment to the email. 
