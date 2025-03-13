@@ -31,3 +31,13 @@ file_write.close()
 # # Deleting and Renaming the files 
 remove("new-file.txt")
 rename("file-to-write.txt","output.csv")
+
+# getting the file from internet 
+import wget
+url = 'http://www.futurecrew.com/skaven/song_files/mp3/razorback.mp3'
+file = wget.download(url)
+
+# # getting the file from internet
+url2 = 'https://www.youtube.com/watch?v=2aclOPvhbn0'   
+file = wget.download(url2)
+
