@@ -23,10 +23,7 @@ for stock in myportfolio:
     print(stock1.dividends)
     print(stock1.dividends.sum())
     plt.plot(df_portfolio['Close'][stock],label=stock)
-# Get dividents for the one stock
-# stock1 = yf.Ticker(myportfolio[0])
-# print("Dividends for ",myportfolio[0])
-# print(stock1.dividends)
-# print(stock1.dividends.sum())
+plt.title('Stock Prices')
+plt.xlabel('Date')
 plt.legend()
 plt.show()
