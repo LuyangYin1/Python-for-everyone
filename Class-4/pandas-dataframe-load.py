@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd 
 
 def header(msg):
-    print("1: Load hard coded data into df")
+    print("1: Load hard coded data into df inside a function")
     df = pd.DataFrame(
         [['Jan',58,42,74,22,2.95],
         ['Feb',61,45,78,26,3.02],
@@ -22,10 +22,14 @@ def data_types(df):
     print(df.columns)
     print(df.values)
     print(df.describe())
+    print(df.describe(include='all'))   # includes all columns  
+    print(df.mean())    # mean of all columns
+    print(df.std())     # standard deviation of all columns 
     #print(df.sort_values('avg_high',ascending=False))
 
 
 if __name__ == "__main__":
+    print("1. Load hard coded data into df")
     header("hello world")
     print("2. Read from the file into data frame")
     filename = 'weather.csv'
@@ -39,6 +43,7 @@ if __name__ == "__main__":
     print("5. get statistical data")
     # slicing scalar value -- 
     print(df.iloc[3:5,0:2])
-    df['avg_high'] = (df[:2])
+    #df['avg_high'] = np.average(df[:2])
+    #print(df['avg_high'])
     # df['avg_day'] = (df[:2] + df['avg_low'])/2
     #print(df['avg_high'])
