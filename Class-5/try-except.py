@@ -1,5 +1,5 @@
 try:
-    print(10/0)
+    # print(10/0)
     text = "Hello"
     number = int(text)
 except ValueError:
