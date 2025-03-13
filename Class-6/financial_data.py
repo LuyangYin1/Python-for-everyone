@@ -41,7 +41,7 @@ df_portfolio.to_excel('myportfolio.xlsx')
 print((df_portfolio['Close']['GOOG']['2025-02-07']))
 print((df_portfolio['Close']['AAPL']['2025-02-07']))
 
-plt.plot(df['Close'])
+#plt.plot(df['Close'])
 plt.plot(df_portfolio['Close']['AAPL'],label='AAPL') 
 plt.plot(df_portfolio['Close']['GOOG'],label='GOOG')
 plt.plot(df_portfolio['Close']['SPY'],label='SPY')
