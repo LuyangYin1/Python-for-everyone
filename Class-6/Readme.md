@@ -1,4 +1,4 @@
-```markdown
+
 # Financial Analysis with Python: Stocks & ETFs
 
 ## Project Overview
@@ -45,13 +45,10 @@ This project focuses on using Python to analyze and visualize the performance of
 ├── data/              # Directory to store downloaded data (e.g., CSV files)
 ├── notebooks/         # Jupyter notebooks for analysis and visualization
 │   ├── data_acquisition.ipynb   # Notebook for downloading and cleaning data
-│   ├── analysis.ipynb         # Notebook for performing financial calculations
-│   ├── visualization.ipynb    # Notebook for creating charts
-│   └── ...
+│   ├── analysis.ipynb         # Notebook for performing financial 
 ├── scripts/           # Python scripts for reusable functions (optional)
-│   ├── data_loader.py   # Script to load data
-│   ├── metrics.py       # Script to calculate financial metrics
-│   └── ...
+│   ├── data_loader.py   # Script to load data (main )
+│   ├── metrics.py       # Script to calculate financial metrics ( Class )
 └── LICENSE (Optional)   # License information (e.g., MIT License)
 ```
 
@@ -117,5 +114,3 @@ This project focuses on using Python to analyze and visualize the performance of
 *   Develop interactive dashboards using Plotly or Dash.
 *   Create a web application to allow users to analyze their own portfolios.
 *   Incorporate machine learning techniques for predicting stock prices.
-
-```

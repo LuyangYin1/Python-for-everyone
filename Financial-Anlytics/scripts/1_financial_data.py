@@ -15,10 +15,12 @@
 # pip install pandas
 # pip install openpyxl
 
-
+import pandas as pd
 import datetime as dt 
 import yfinance as yf
 import matplotlib.pyplot as plt
+import math
+#  import price
 
 
 start = dt.datetime(2025,1,1)

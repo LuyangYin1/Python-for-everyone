@@ -14,6 +14,7 @@ print(myportfolio)
 start = dt.datetime(2025,1,1)
 end = dt.datetime (2025,4,1)
 df_portfolio = yf.download(myportfolio,start,end)
+df_portfolio.to_excel('myportfolio2.xlsx')
 print(df_portfolio.head(5))
 
 # Get dividents for the stock
