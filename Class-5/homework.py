@@ -93,7 +93,7 @@ modify_global()
 print(f"Outside modify_global: {global_variable}")
 
 # Example using the my_math module
-import my_math
+import cube as my_math
 
 number = 5
 print(f"Square of {number}: {my_math.square(number)}")

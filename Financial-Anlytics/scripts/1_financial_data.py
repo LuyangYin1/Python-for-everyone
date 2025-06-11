@@ -21,7 +21,10 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 import math
 #  import price
+data = pd.read_excel('apple.xlsx')
+print(data.head(5))
 
+data.to_excel('apple2.xlsx')
 
 start = dt.datetime(2025,1,1)
 end = dt.datetime (2025,4,1)
