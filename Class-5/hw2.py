@@ -1,4 +1,5 @@
 import fractions as f
+
 fraction1 = f.Fraction(1, 2)
 fraction2 = f.Fraction(2, 3)
 result = fraction1 / fraction2
@@ -18,7 +19,7 @@ print(result)
 # print(f"The cube of 3 is {output}")
 # output_sq = c3.square() # Output: 9
 # print(f"The square of 3 is {output_sq}")
- # output_area = c3.area() # Output: 54
+# output_area = c3.area() # Output: 54
 # print(f"The area of 3 is {output_area}")
 """
 import bankaccount as b

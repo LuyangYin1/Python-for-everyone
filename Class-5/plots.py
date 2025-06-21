@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+
 rng = np.random.default_rng(seed=42)
 X = rng.integers(0, 10, (4, 6))
 print(X)

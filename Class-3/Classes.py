@@ -1,7 +1,9 @@
 # from Classes import Car, ElectricCar
 class Car:
     """A simple class to represent a car."""
+
     amount_car = 0
+
     def __init__(self, make, model, year):
         """Initialize car attributes."""
         self.make = make
@@ -14,7 +16,6 @@ class Car:
     def __del__(self):
         print("Object deleted from Car class")
         Car.amount_car -= 1
-
 
     def describe_car(self):
         """Return a formatted description of the car."""
@@ -49,16 +50,16 @@ class Car:
         else:
             print("Fuel amount must be positive!")
 
+
 # Create an instance of the Car class
-my_car = Car('Toyota', 'Corolla', 2022)
-my_car2 = Car('Tesla', 'Model S', 2023)
-my_car3 = Car('BMW', 'X5', 2020)
-my_car4 = Car('Honda', 'Civic', 2019)
+my_car = Car("Toyota", "Corolla", 2022)
+my_car2 = Car("Tesla", "Model S", 2023)
+my_car3 = Car("BMW", "X5", 2020)
+my_car4 = Car("Honda", "Civic", 2019)
 
 print(Car.amount_car)
 del my_car2
 print(Car.amount_car)
-
 
 
 # # Use the methods of the Car class
@@ -73,9 +74,11 @@ my_car.read_odometer()
 
 my_car.add_fuel(10)
 
+
 # Demonstrate inheritance by creating a subclass
 class ElectricCar(Car):
     """A specialized version of Car for electric vehicles."""
+
     ElectricCaramount = 0
 
     def __init__(self, make, model, year, battery_capacity):
@@ -86,7 +89,6 @@ class ElectricCar(Car):
         super().__init__(make, model, year)
         self.battery_capacity = battery_capacity
         ElectricCar.ElectricCaramount += 1
-
 
     def describe_battery(self):
         """Display information about the battery."""
@@ -101,9 +103,8 @@ class ElectricCar(Car):
         ElectricCar.ElectricCaramount -= 1
 
 
-
 # Create an instance of ElectricCar
-my_tesla = ElectricCar('Tesla', 'Model 3', 2023, 75)
+my_tesla = ElectricCar("Tesla", "Model 3", 2023, 75)
 
 print(my_tesla.describe_car())
 my_tesla.describe_battery()
