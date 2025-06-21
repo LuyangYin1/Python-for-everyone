@@ -1,17 +1,20 @@
-
 def function():
-    global number 
+    global number
     number = 10
     print(number)
     number += 10
-    print(number)   
+    print(number)
+
 
 function()
 print(number)
 
-# Scope is global 
-z = 100 
+# Scope is global
+z = 100
+
+
 def make_a_number():
-    return z 
+    return z
+
 
 print(make_a_number())
