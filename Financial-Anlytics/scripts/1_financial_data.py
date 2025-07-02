@@ -1,19 +1,29 @@
-############################################
-# 1. Import the required libraries
-# 2. Define the start and end date for the data
-# 3. Download the data for the stock
-# 4. Print the data
-# 5. Save the data to an excel file
-# 6. Get the closing price for a specific date
-# 7. Plot the data
-# documentation webpage : https://yfinance-python.org/index.html
-# ##############################################
-# Follow the instructions in the comments and run the code in the terminal. 
-# pip install yfinance --upgrade --no-cache-dir
-# pip install matplotlib
-# pip install numpy
-# pip install pandas
-# pip install openpyxl
+"""
+Financial Data Analysis with Python
+
+This module demonstrates how to work with financial data using Python libraries:
+- yfinance: Downloading stock market data from Yahoo Finance
+- pandas: Data manipulation and analysis
+- matplotlib: Data visualization
+- openpyxl: Excel file operations
+
+The module covers:
+- Data acquisition from Yahoo Finance
+- Portfolio data management
+- Excel file operations
+- Basic stock price visualization
+- Multi-stock comparison
+
+Prerequisites:
+    pip install yfinance --upgrade --no-cache-dir
+    pip install matplotlib
+    pip install numpy
+    pip install pandas
+    pip install openpyxl
+
+Author: Avnit
+Date: 2024
+"""
 
 import pandas as pd
 import datetime as dt 
