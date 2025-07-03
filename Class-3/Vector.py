@@ -8,6 +8,12 @@ class Vector:
 
     # on class request
     def __mul__(self, other):
+        if not isinstance(other, Vector):
+            raise TypeError("Multiplication is only supported between two Vector instances.")   ''
+        if self.x == 0 or self.y == 0 or other.x == 0 or other.y == 0:
+            raise ValueError("Cannot multiply vectors with zero components.")   
+        if self.x < 0 or self.y < 0 or other.x < 0 or other.y < 0:
+            raise ValueError("Cannot multiply vectors with negative components.")
         return Vector(self.x * other.x, self.y * other.y)
 
     # HW - 1 how to divide two vectors
