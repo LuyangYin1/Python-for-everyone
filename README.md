@@ -172,9 +172,11 @@ We welcome contributions! Here's how you can help:
 2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
 3. **Make your changes**: Follow the existing code style and add documentation
 4. **Test your code**: Ensure all examples run correctly
-5. **Commit your changes**: `git commit -m 'Add amazing feature'`
-6. **Push to the branch**: `git push origin feature/amazing-feature`
-7. **Open a Pull Request**: Describe your changes and improvements
+5. Add user name and email to git `git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"`
+6. **Commit your changes**: `git commit -m 'Add amazing feature'`
+7. **Push to the branch**: `git push origin feature/amazing-feature`
+8. **Open a Pull Request**: Describe your changes and improvements
 
 ### Contribution Guidelines
 
