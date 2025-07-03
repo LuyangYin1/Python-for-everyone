@@ -16,6 +16,9 @@
 # Part 3: Classes and Objects
 
 # Create a class called BankAccount with attributes for account holder name, account number, and balance. Include methods to deposit and withdraw money.
+
+
+Todo ( Next Class)
 # Explain the concept of inheritance in object-oriented programming, providing a Python example.
 # What is operator overloading? Demonstrate how to overload the / operator for a custom class in Python.
 
